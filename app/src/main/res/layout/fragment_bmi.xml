@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:padding="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:background="@color/colorPrimary"
+            android:id="@+id/bmi_back_btn"
+            android:text="Back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            />
+
+        <EditText
+            android:inputType="number"
+            android:drawableTint="@color/colorPrimary"
+            android:drawableLeft="@drawable/ic_height"
+            android:id="@+id/bmi_height"
+            android:hint="@string/height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            />
+
+        <EditText
+            android:inputType="number"
+            android:drawableTint="@color/colorPrimary"
+            android:drawableLeft="@drawable/ic_weight"
+            android:id="@+id/bmi_weight"
+            android:hint="@string/weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:background="@color/colorPrimary"
+            android:id="@+id/bmi_cal_btn"
+            android:text="@string/calculate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25dp"
+            android:text="Your BMI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25dp"
+            android:id="@+id/bmi_result"
+            android:hint="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

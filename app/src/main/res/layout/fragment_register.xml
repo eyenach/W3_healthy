@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:padding="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:inputType="text"
+            android:drawableTint="@color/colorPrimary"
+            android:drawableLeft="@drawable/ic_person"
+            android:id="@+id/reg_user_id"
+            android:hint="@string/user_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:inputType="text"
+            android:drawableTint="@color/colorPrimary"
+            android:drawableLeft="@drawable/ic_person_name"
+            android:id="@+id/reg_name"
+            android:hint="@string/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:inputType="number"
+            android:drawableTint="@color/colorPrimary"
+            android:drawableLeft="@drawable/ic_calendar"
+            android:id="@+id/reg_age"
+            android:hint="@string/age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:inputType="textPassword"
+            android:drawableTint="@color/colorPrimary"
+            android:drawableLeft="@drawable/ic_lock"
+            android:id="@+id/reg_password"
+            android:hint="@string/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:background="@color/colorPrimary"
+            android:id="@+id/reg_reg_btn"
+            android:text="@string/btn_reg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
